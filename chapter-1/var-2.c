@@ -8,7 +8,7 @@ int main(void)
     
     // declare and initialize variable on the same line
     int userAge = get_int();
-    
+
     // wish user a happy future birthday
     printf("You will be %d on your next birthday - happy future birthday!\n", userAge + 1);
 }
