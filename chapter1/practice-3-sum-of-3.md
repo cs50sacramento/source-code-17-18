@@ -1,4 +1,4 @@
-# Sum and Product
+# Sum of 3
 
 ## Prerequisites
 None
