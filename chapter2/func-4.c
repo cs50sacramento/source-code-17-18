@@ -13,5 +13,5 @@ int main(void)
     
     int ans = mult(x, y);
     
-    printf("%d times %d eqals %d.\n", x, y, ans);
+    printf("%d times %d equals %d.\n", x, y, ans);
 }

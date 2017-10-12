@@ -13,7 +13,7 @@ int main(void)
     printf("You entered the number %d.\n", userNum);
 }
 
-// write a function that asks a user for an integer and reprompts if non-positive
+// define a function that asks a user for an integer and reprompts if non-positive
 int get_pos_int(string prompt)
 {
     int x;
