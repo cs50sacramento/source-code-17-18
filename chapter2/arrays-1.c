@@ -18,11 +18,11 @@ int main(void)
 
 void printArray(int array[])
 {
-    for (int i = 0; i < 3; i++)
+    for (int index = 0; index < 3; index++)
     {
-        printf("%d", array[i]);
+        printf("%d", array[index]);
         
-        if (i < 2)
+        if (index < 2)
         {
             printf("/");
         }
