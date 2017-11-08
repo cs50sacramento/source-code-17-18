@@ -15,6 +15,7 @@ int main(void)
     {
         fibo[i] = fibo[i-1] + fibo[i-2];
     }
+    
     // TODO: print the entire series
     for (int i = 0; i < N; i++)
     {

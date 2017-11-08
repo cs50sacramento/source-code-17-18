@@ -23,7 +23,6 @@ int main(void)
             field[i][j] = 1;
     }
     
-    // TODO: print the location of the mines!
     for (int i = 0; i < HEIGHT; i++)
     {
         for (int j = 0; j < WIDTH; j++)
@@ -32,24 +31,22 @@ int main(void)
             {
                 printf("[%d][%d]\n", i, j);
             }
-            
         }
     }
+
     for (int i = 0; i < HEIGHT; i++)
     {
         for (int j = 0; j < WIDTH; j++)
         {
             if (field[i][j] == 1)
             {
-                printf("*");
+                printf("-*-");
             }
             else
             {
-                printf("_");
+                printf("---");
             }
         }
         printf("\n");
     }
-
-
 }
