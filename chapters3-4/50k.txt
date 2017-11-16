@@ -1,0 +1,27 @@
+Generating an array of random numbers...
+Sorting...
+Using bubble sort, the computer sorted the array in 31.460000 seconds using 626560133 swaps.
+Using selection sort, the computer sorted the array in 8.204000 seconds using 49998 swaps.
+Using insertion sort, the computer sorted the array in 9.860000 seconds using 626560133 swaps.
+Using merge sort, the computer sorted the array in 0.136000 seconds.
+
+Generating an array of reversed numbers...
+Sorting...
+Using bubble sort, the computer sorted the array in 35.872000 seconds using 1249975000 swaps.
+Using selection sort, the computer sorted the array in 8.836000 seconds using 49997 swaps.
+Using insertion sort, the computer sorted the array in 19.736000 seconds using 1249925001 swaps.
+Using merge sort, the computer sorted the array in 0.128000 seconds.
+
+Generating an array of almost sorted numbers...
+Sorting...
+Using bubble sort, the computer sorted the array in 2.780000 seconds using 14955 swaps.
+Using selection sort, the computer sorted the array in 8.472000 seconds using 7478 swaps.
+Using insertion sort, the computer sorted the array in 0.000000 seconds using 14955 swaps.
+Using merge sort, the computer sorted the array in 0.140000 seconds.
+
+Generating an array of sorted numbers...
+Sorting...
+Using bubble sort, the computer sorted the array in 0.000000 seconds using 0 swaps.
+Using selection sort, the computer sorted the array in 9.276000 seconds using 0 swaps.
+Using insertion sort, the computer sorted the array in 0.000000 seconds using 0 swaps.
+Using merge sort, the computer sorted the array in 0.136000 seconds.
