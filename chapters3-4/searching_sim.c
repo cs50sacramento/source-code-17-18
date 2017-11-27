@@ -27,10 +27,9 @@ int main(void)
     // benchmarks
     double linear_time = 0.0, binary_time = 0.0;
     
-    // prompt user
-    printf("I'm thinking of a number between 0 and %d. What is it?\n", UPPER_BOUND - 1);
+    printf("The pseudorandomly generated number is %d.\n", skittles);
     
-    // find number using search algorithms
+    // find number using search algorithms and time the respective searches
     getrusage(RUSAGE_SELF, &before);
     int linear_search_guesses = linear_search_test(skittles);
     getrusage(RUSAGE_SELF, &after);
@@ -40,10 +39,8 @@ int main(void)
     int binary_search_guesses = binary_search_test(skittles);
     getrusage(RUSAGE_SELF, &after);
     binary_time = calculate(&before, &after);
-    
-    printf("It is %d!\n", skittles);
 
-    // congratulate user once they break out of the loop, thus guessing correctly
+    // display time of each search algorithm
     printf("Using linear search, the computer got it using %d guesses in %f seconds.\n", linear_search_guesses, linear_time);
     printf("Using binary search, the computer got it using %d guesses in %f seconds.\n", binary_search_guesses, binary_time);
 }

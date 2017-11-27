@@ -11,7 +11,7 @@
 #undef getrusage
 
 #define UPPER_BOUND 100000
-#define ARRAY_SIZE 125000
+#define ARRAY_SIZE 25000
 
 void print_array(int *values);
 unsigned long long bubble_sort_test(int *values);
