@@ -5,8 +5,14 @@ Instructions for pset3-4 are as follows:
  - Answer the 25 questions below in this file called `questions.md`. Use class notes, reference sheets, and *D is for Digital* (among other resources) to help you answer them.
  - Work on *one* of the following three programs:
     - [Fifteen](https://docs.cs50.net/2017/ap/problems/fifteen/fifteen.html)
+        - slug: `cs50/2017/ap/fifteen` 
     - [Scramble](https://docs.cs50.net/2017/ap/problems/scramble/1/scramble1.html)
-    - [Sudoku](https://docs.cs50.net/2017/ap/problems/sudoku/sudoku.html)   **(NOTE: There is no `check50` for `sudoku.c`.)**
+        - slug: `cs50/2017/ap/scramble/1` 
+    - [Sudoku](https://docs.cs50.net/2017/ap/problems/sudoku/sudoku.html)
+        - slug: `cs50/2017/ap/sudoku`
+        - **NOTE: There is no `check50` for `sudoku.c`, only `submit50`. Also, you need only implement the four elements under "Required Features"; what falls under "The student becomes the teacher" is optional.**
+    - Rubric for pset3-4: [Master Grading Spreadsheet](https://docs.google.com/spreadsheets/d/1CJ2SKlVl-AeDdn3kue-mvUBJgfYAZ9XJBZLSaVLRkqI/view#gid=2000629522)
+        - We will discuss in class what is meant by "sufficient commenting" 
 
 To get this file into your workspace, run `cd source-code-17-18` followed by `git pull`. Then, run the command `mkdir ~/workspace/pset3-4` followed by `cp chapters3-4/questions.md ~/workspace/pset3-4`. When the time comes to submit, simply right-click on the file in the file browser to your left and select "Download." Once this download finishes, you can upload it to PowerSchool.
 
