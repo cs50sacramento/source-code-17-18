@@ -20,7 +20,7 @@ int main(void)
     // another way to initialize each element is to use nested for loops
     // this code duplicates the lines above, but it shows an alternate method
     // just as we used for loops to iterate over a string (i.e. a char array),
-    // we must use nested for loops to iteratre over arrays within arrays
+    // we must use nested for loops to iterate over arrays within arrays
     // the outer loop looks at each row individually
     // the innter loop looks at each element within each row
     for (int row = 0; row < GRID_SIZE; row++)
