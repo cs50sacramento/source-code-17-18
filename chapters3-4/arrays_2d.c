@@ -15,16 +15,21 @@ int main(void)
     // another way to initialize each element is to use nested for loops
     // this code duplicates the lines above, but it shows an alternate method
     // just as we used for loops to iterate over a string (i.e. a char array),
-    // we must use nested for loops to iteratre over arrays within arrays
+    // we must use nested for loops to iterate over arrays within arrays
     // the outer loop looks at each row individually
     // the innter loop looks at each element within each row
-    for (int row = 0; row < GRID_SIZE; row++)
+    for (int row = 0; row < GRID_SIZE; row++) // outer loop iterates over the rows
     {
-        for (int column = 0; column < GRID_SIZE; column++)
+        for (int column = 0; column < GRID_SIZE; column++) // inner loop iterates over the columns
         {
             grid[row][column] = ' ';
         }
     }
+    
+    print_game_board(grid);
+    
+    grid[0][0] = 'X';
+    grid[0][1] = 'O';
     
     print_game_board(grid);
 }

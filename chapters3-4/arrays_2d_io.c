@@ -47,7 +47,19 @@ int main(void)
     
     log_game_board(grid);
     
-    grid[1][1] = 'X';
+    grid[0][0] = 'O';
+    
+    log_game_board(grid);
+    
+    grid[0][1] = 'X';
+    
+    log_game_board(grid);
+    
+    grid[2][1] = 'O';
+    
+    log_game_board(grid);
+    
+    grid[1][0] = 'X';
     
     log_game_board(grid);
 }
