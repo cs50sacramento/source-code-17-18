@@ -20,8 +20,23 @@ int main(void)
     {
         for (int column = 0; column < GRID_SIZE; column++) // inner loop iterates over the columns
         {
+            // if value == 0, print _
+            // else print the value
             printf("%4d\t", grid[row][column]);
         }
         printf("\n");
+    }
+    
+    // search through array
+    int tile = 5;
+    for (int row = 0; row < GRID_SIZE; row++) // outer loop iterates over the rows
+    {
+        for (int column = 0; column < GRID_SIZE; column++) // inner loop iterates over the columns
+        {
+            if (grid[row][column] == tile)
+            {
+                // check four directions
+            }
+        }
     }
 }
