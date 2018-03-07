@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<form action="{{ url_for('yes') }}" method="post">
+	Why was it right to leave Becca for Lauren?<br>
+	<input type="text" name="reason"><br>
+	<button type="submit">Submit</button>
+</form>
+{% endblock %}

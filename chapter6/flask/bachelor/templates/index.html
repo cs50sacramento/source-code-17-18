@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<form action="{{ url_for('form') }}" method="post">
+	First name:<br>
+	<input type="text" name="first_name">
+	<br>
+	Do you think Arie made the right decision on <i>The Bachelor</i>?
+	<br>
+	<select name="choice">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+		<option value="maybe">Maybe</option>
+	</select>
+	<button type="submit">Submit</button>
+</form>
+{% endblock %}
