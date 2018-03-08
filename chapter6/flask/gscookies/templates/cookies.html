@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<h2>Thank you, {{ user_name }}, for your participation in my survey.</h2>
+<h4>Your favorite cookie is {{ cookie }}.</h4>
+<form action="{{ url_for('cookie') }}" method="post">
+	What is your preferred method of consumption for said cookie?<br>
+	<select name="method">
+		<option value="frozen">Frozen</option>
+		<option value="milk">With milk</option>
+		<option value="plain">Plain</option>
+		<option value="one">The whole box in one sitting</option>
+		<option value="fork">With a fork and knife</option>
+		<option value="cook">Cook it...</option>
+		<option value="ice">In ice cream</option>
+		<option value="bite">In one bite</option>
+	</select>
+	<button type="submit">Submit</button>
+</form>
+{% endblock %}

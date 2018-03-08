@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<form action="{{ url_for('form') }}" method="post">
+	First name:<br>
+	<input type="text" name="first_name"><br>
+	What is the best kind of Girl Scout Cookie?<br>
+	<select name="cookie">
+		<option value="mints">Thin Mints</option>
+		<option value="caramel">Caramel deLites</option>
+		<option value="lemonades">Lemonades</option>
+		<option value="tag">Tagalongs</option>
+		<option value="pb">PB Sandwiches</option>
+		<option value="short">Shortbread</option>
+		<option value="thx">Thanks-A-Lot</option>
+	</select>
+	<button type="submit">Submit</button>
+</form>
+{% endblock %}
