@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<form action="{{ url_for('form') }}" method="post">
+	First name:<br>
+	<input type="text" name="first_name"><br>
+	<select name="block">
+		<option value="C">C Block</option>
+		<option value="F">F Block</option>
+		<option value="G">G Block</option>
+	</select>
+	<button type="submit">Submit</button>
+</form>
+{% endblock %}

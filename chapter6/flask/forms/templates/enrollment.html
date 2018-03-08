@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<form action="{{ url_for('enroll') }}" method="post">
+	<input type="radio" name="enrollment" value="yes">Taking AP CS A<br>
+	<input type="radio" name="enrollment" value="no">Not Taking AP CS A<br>
+	<input type="radio" name="enrollment" value="grad">Graduating!<br>
+	<button type="submit">Submit</button>
+</form>
+{% endblock %}
